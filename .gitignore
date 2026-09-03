@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Project-specific secrets & runtime state
+# These are NEVER committed.
+saas.db
+saas.db-*
+setup.token
+*.bak
+*.bak.*
+nginx.bak
+nginx.bak.*
+
+# Deployment artifacts
+*.tar.gz
+*.zip
+*.tgz
+.deploy_key
