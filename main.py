@@ -211,6 +211,8 @@ async def auth_mw(request, handler):
         '/api/v1/openai/v1/models', '/api/v1/anthropic/v1/models',
         '/setup', '/setup/read',
         '/pricing', '/docs', '/skills', '/changelog',
+        # Exact aliases registered by setup_protocol_routes; no prefix bypass.
+        '/pricing/', '/docs/', '/skills/', '/changelog/',
         '/admin/metrics', '/admin/billing',
         '/api/v1/admin/resources', '/api/v1/admin/billing',
     )
